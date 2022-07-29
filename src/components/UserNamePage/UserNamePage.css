@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+.UserNamePage {
+    background-color: #250333;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.UserNamePage_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8% 5% 5% 8%;
+}
+.UserNamePage_form{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Username_Label {
+    width: 207px;
+    height: 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.kanalabs_logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0 0 5%;
+}
+
+.Wallet_Name {
+    width: 223px;
+    height: 34px;
+    left: 84px;
+    top: 32px;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 0 13%;
+}
+
+progress[value] {
+    border: none;
+    width: 99.4% !important;
+    height: 6px;
+    margin: 0 0 0 0.2%;
+}
+
+progress {
+    position: relative;
+}
+
+progress::before,
+progress::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+progress::before {
+    width: 100%;
+    background: white;
+}
+.Progress_UserNamePage
+ {
+    background: #00FFFF;
+    width: 400px;
+}
+.username_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 7% 9% 4% 9%;
+}
+.info{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+.Username_Input {
+    box-sizing: border-box;
+    width: 80%;
+    height: 56px;
+    background: rgba(193, 193, 193, 0.1);
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    margin: 0 10%;
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 5%;
+}
+.Continue_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 54px;
+    background: linear-gradient(180deg, #00F9A9 0%, #00FFFF 97.92%);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #250333;
+    cursor: pointer;
+    margin: 75% 0 1% 0;
+    text-decoration: none !important;
+}
+
+.Continue_button:hover {
+    background: linear-gradient(180deg, #00FFFF 0%, #00F9A9 97.92%);
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+.FinalPage {
+    background-color: #250333;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.FinalPage_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8% 5% 5% 8%;
+}
+
+.FinalPageTitle {
+    width: 333px;
+    height: 34px;
+    left: 84px;
+    top: 105px;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 10%;
+}
+
+.kanalabs_logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0 0 5%;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0 5% 10%;
+    width: auto;
+    height: auto;
+}
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0 5% 10%;
+    width: 80%;
+    height: auto;
+}
+progress[value],
+.Progress_FinalPage {
+    border: none;
+    width: 99.4% !important;
+    height: 4px;
+    margin: 0 0 0 0.2%;
+}
+
+progress,
+.Progress_FinalPage {
+    position: relative;
+}
+
+progress::before,
+progress::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+progress::before {
+    width: 100%;
+    background: white;
+}
+
+.Progress_FinalPage{
+    background: #00FFFF;
+    width: 400px;
+}
+
+.Description_wallet {
+    width: 310px;
+    height: 72px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #DADCE3;
+    padding: 4% 5% 2% 9%;
+
+}
+
+.Follow_below {
+    width: 310px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 0 1% 10%;
+}
+
+.start {
+    width: 80%;
+    height: 50px;
+    background: linear-gradient(180deg, #00F9A9 0%, #00FFFF 97.92%);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 26px;
+    padding: 13px 33px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #250333;
+    cursor: pointer;
+    border-color: transparent;
+    margin: 12% 8% 1% 10%;
+}
+
+.start:hover {
+    background: linear-gradient(180deg, #00FFFF 0%, #00F9A9 97.92%);
+}
+.span_img{
+    margin: 1% 2% 0 2%;
+}
